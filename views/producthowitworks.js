@@ -63,7 +63,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>1.</Box>
                 <Box
                   component="img"
-                  src="https://cvws.icloud-content.com/B/ASEF4rmC-3BTaLRqxxaiGSg3MbmjAb-Rfbka6HdvHNZmTDJs3VgMwczw/services.png?o=AuzSlqV_8TtZXAY59oQX-m_ZK_tefqASSO6IOjGzlY_a&v=1&x=3&a=CAog_mBBhBFSGofN2gLRGFnz9NKoUWsQnzsHmwoDOoyA130SaxDD5q2X_y8Y493kl_8vIgEAUgQ3MbmjWgQMwczwaiXe6nEk3aAn-kfzF0sdg7TutCKQV5dJ1fVUalVb9rJAvqHSfKTNciWFyP_ztKEzZgIaFuomDo43Skms2QRlP2LRCAwZ7b47AOhnHBmh&e=1649048891&fl=&r=fb64f496-69c4-4d9d-b2b8-0d6eb032cf04-1&k=0o0D1SkCd2aBkWjh8cfnug&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=45&s=zQ1zeAv7t-Vc5dRZ3nVglPhxMPQ&cd=i"
+                  src="https://raven-resumes.s3.amazonaws.com/services.png"
                   alt="suitcase"
                   sx={image}
                 />
@@ -77,7 +77,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>2.</Box>
                 <Box
                   component="img"
-                  src="https://cvws.icloud-content.com/B/Aa--BqnzdwMSyoj5DbmqULt1Z_U0AZzztFPhg3SrYEPRJaIK5cbIpZnz/employee.png?o=Ap8STBvc62foAOT8Cky-9q8qqZA3_eP-eglK2LpnejUL&v=1&x=3&a=CAogsnKc4VQLprC9yCMhaq3F2rxA54xCmRf6-5kY1G1XJt0SaxC8i8GX_y8Y3IL4l_8vIgEAUgR1Z_U0WgTIpZnzaiUZo-BKQ5SX6S9vHz4FmBVv0hmbBm1W4H82K8H3HlYZNxz1Y0TMciUE8ClmOdp2xWbOweOGo0ap9tS3VqqXrlxPSCYraWyjIYMdmMs0&e=1649049207&fl=&r=571cf887-5d38-437e-8859-2a2ccae735a4-1&k=J0e8t3XgwM0yBYOXDWmUmg&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=45&s=pYRglveVS4AXAP2YwDmrF_ojibY&cd=i"
+                  src="https://raven-resumes.s3.amazonaws.com/employee.png"
                   alt="graph"
                   sx={image}
                 />
@@ -91,7 +91,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>3.</Box>
                 <Box
                   component="img"
-                  src="https://cvws.icloud-content.com/B/AWqDTmoJnfnsOLJO9_yI2ft4xyQGAccputc-dhoc14Q5oAuoTeZolkKW/meeting.png?o=AurbHDIEXD6UIP_sgyxL_6ZxTi9_Udf1VKC5QNskXnK5&v=1&x=3&a=CAoghuJWu-CuEJ00jIW_EjpAW5D7U_3xngvLaVDa0rvxbd4SaxDn1syX_y8Yh86DmP8vIgEAUgR4xyQGWgRolkKWaiUZytwonuoGLKE9wBXDBJbnfsc8NwyZVlxm2cc4-bj-UJLJ5xjlciVdIBPdPbvcmIa8plgWRRiBPy9tAGPqtBnuY-6PDY8LZT603Z6s&e=1649049396&fl=&r=7300ab11-d366-4020-9975-fcfb33349a79-1&k=0A6wblHARFnsoY-hdYydXg&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=45&s=8amLwXRchK2YvoDMjDdoU_cvxIw&cd=i"
+                  src="https://raven-resumes.s3.amazonaws.com/meeting.png"
                   alt="clock"
                   sx={image}
                 />

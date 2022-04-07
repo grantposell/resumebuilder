@@ -17,9 +17,9 @@ export default function Navbar2() {
                             Raven Resumes
                         </Link>
                     </Typography>
-                    <Link href="/services">
+                    {/* <Link href="/services">
                         <Button color="inherit">Services</Button>
-                    </Link>
+                    </Link> */}
                     {/* <Link href="/pricing">
                         <Button color="inherit">Pricing</Button>
                     </Link> */}
