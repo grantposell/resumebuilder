@@ -22,10 +22,6 @@ export default function Home() {
       <ProductCategories />
       <ProductHowItWorks />
       <Pricing/>
-      
-      {/* <ProductCTA /> */}
-      {/* <ProductSmokingHero />
-      <AppFooter /> */}
     </div>
   )
 }

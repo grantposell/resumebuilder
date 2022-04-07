@@ -3,8 +3,8 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Container from '@mui/material/Container';
+
 // import Typography from '../components/Typography';
-import appCurvyLines from "../pages/images/appCurvyLines.png"
 
 const ImageBackdrop = styled('div')(({ theme }) => ({
   position: 'absolute',
@@ -56,7 +56,7 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 
 const images = [
   {
-    url: 'https://cvws.icloud-content.com/B/AdBYC-gYuuONBBfPJIs_LMxZs_rQAQJz5EQVESqRaKDFfJgEE0RpZ87e/architecture.jpeg?o=AkBoEngBIffQWbAnzd1W1x2dQX7AdDaxKFWoYV52ahIN&v=1&x=3&a=CAogYuNCe8jcJ7u_0EagGiE-iuHuAYP5bbDFYU_Lv_i6_BsSaxD11Zm5_y8Ylc3Quf8vIgEAUgRZs_rQWgRpZ87eaiXOPXL5nlqaUDG5-7Urf4txdZCH3GbX4aFi_uHAMYxyh4ThEgKpciW-4KVF8Os3qXqGJIGsMbkM61RHRyzwRJHJ_SQ0mUpPjv1GmNfV&e=1649119864&fl=&r=6f3e2b3a-2161-4ad1-be2e-e8ced21a0e0b-1&k=NbFtFU-kL2uFca-1NTzrwA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=45&s=NhMz6bOYM8Om80yv2hRaOYw7-m4&cd=i',
+    url: 'https://cvws.icloud-content.com/B/AdBYC-gYuuONBBfPJIs_LMxZs_rQAQJz5EQVESqRaKDFfJgEE0RpZ87e/architecture.jpeg?o=Ah0MxGTdnOLM-jMRte4mSscRfAbh4P-rwTwizjLAelD2&v=1&x=3&a=CAogNHfUbp2vacnELONcNwptltcxj_FT_HL4pYITy8uhVmASaxD1oYSPgDAYlZm7j4AwIgEAUgRZs_rQWgRpZ87eaiXFlQn5vqoy_ETI9cSbA-6VuEX1-60s32nYQPyGMSATccFopm1iciUU4M0XMx7idaNu6NiVAkbaR901aVGKn67qFsJe7TqFj6hBeBv4&e=1649299868&fl=&r=748e1652-4665-4815-b42d-b509ff390709-1&k=NbFtFU-kL2uFca-1NTzrwA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=45&s=88j5PIRvm9sTL1zmD1PKSfpmcdQ&cd=i',
     title: 'Architecture & Construction',
     width: '33.33%',
   },
@@ -151,6 +151,7 @@ export default function ProductCategories() {
                 {image.title}
                 <div className="imageMarked" />
               </h3>
+              
             </Box>
           </ImageIconButton>
         ))}
