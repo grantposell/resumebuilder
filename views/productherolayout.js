@@ -1,7 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { styled } from '@mui/material/styles';
-
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 
@@ -46,7 +45,7 @@ function ProductHeroLayout(props) {
           src="/static/themes/onepirate/productHeroWonder.png"
           alt="wonder"
           width="147"
-          height="80"
+          height=""
         /> */}
         {children}
         <Box
