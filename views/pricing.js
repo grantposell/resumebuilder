@@ -79,13 +79,14 @@ export default function Pricing() {
                                     /> */}
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            Starter - $30
+                                            Starter - $50
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             <ul>
                                                 <li>30 minute - 1v1 Advising & Resume Editing session</li>
                                                 <li>3 Resume Alterations</li>
                                                 <li>Career Path Recommendations based on Client preference</li>
+                                                <li>Perfect for Graduates or Individuals with little to no experience.</li>
                                                 <li>Completion: 5 days max</li>
                                             </ul>
                                         </Typography>
@@ -108,7 +109,7 @@ export default function Pricing() {
                                     /> */}
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            Professional - $50
+                                            Professional - $100
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             <ul>
@@ -116,6 +117,7 @@ export default function Pricing() {
                                                 <li>3 Days Job Sourcing - Recommended Jobs List</li>
                                                 <li>5 Resume Alterations</li>
                                                 <li>Career Path Recommendations based on Client preference</li>
+                                                <li>Perfect for Experienced Professionals.</li>
                                                 <li>Completion: 3 days max</li>
                                             </ul>
                                         </Typography>
@@ -133,7 +135,7 @@ export default function Pricing() {
                     size="large"
                     variant="contained"
                     component="a"
-                    href="/services"
+                    href="/booking"
                     sx={{ mt: 8, backgroundColor: 'white', color: 'black' }}
                 >
                     Book Now

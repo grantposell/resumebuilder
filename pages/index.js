@@ -15,6 +15,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Resume Editor Service</title>
+        <script src="//code.tidio.co/q0ldmoeyadk3faqrqpoxei0orwdhk4n9.js" async></script>
       </Head>
       <Navbar2 />
       <ProductHero />

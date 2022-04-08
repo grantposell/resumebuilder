@@ -31,13 +31,13 @@ export default function ProductHero() {
         align="center"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Enjoy 50% off of the regular Resume price!
+        Enjoy 50% off of the Professional price with the Starter selection!
       </h5>
       <Button
         variant="contained"
         size="large"
         component="a"
-        href="/#pricing"
+        href="/booking"
         sx={{ minWidth: 200, backgroundColor: '#1876d1',}}
       >
         Book Now
