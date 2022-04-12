@@ -82,7 +82,7 @@ function ProductHowItWorks() {
                   sx={image}
                 />
                 <h5 variant="h5" align="left">
-                  Next, select a consultant based on what time and day best works for you.
+                  Next, select a time and day that works best for you to meet with one of our consultants.
                 </h5>
               </Box>
             </Grid>

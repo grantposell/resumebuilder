@@ -31,7 +31,7 @@ export default function ProductHero() {
         align="center"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Enjoy 50% off of the Professional price with the Starter selection!
+        Enjoy a free consultation and choose one of our packages to jump start your job search!
       </h5>
       <Button
         variant="contained"
