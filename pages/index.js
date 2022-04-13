@@ -16,15 +16,15 @@ export default function Home() {
       <Head>
         <title>Raven Resumes</title>
         <script src="//code.tidio.co/q0ldmoeyadk3faqrqpoxei0orwdhk4n9.js" async></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0R7RS7CQ4"></script>
-        
+
       </Head>
       <Navbar2 />
       <ProductHero />
       {/* <ProductValues /> */}
       <ProductCategories />
       <ProductHowItWorks />
-      <Pricing/>
+      <Pricing />
     </div>
+
   )
 }
