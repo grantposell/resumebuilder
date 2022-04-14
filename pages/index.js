@@ -7,6 +7,7 @@ import ProductCategories from '../views/productcategories';
 import ProductHowItWorks from '../views/producthowitworks';
 import Pricing from '../views/pricing';
 // import ProductCTA from '../views/productcta';
+// import Pixel from '../components/Pixel'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <script src="//code.tidio.co/q0ldmoeyadk3faqrqpoxei0orwdhk4n9.js" async></script>
 
       </Head>
+      {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
       <Navbar2 />
       <ProductHero />
       {/* <ProductValues /> */}

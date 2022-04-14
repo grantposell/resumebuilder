@@ -6,21 +6,20 @@ import TagManager from 'react-gtm-module';
 import Script from "next/script";
 config.autoAddCss = false
 
+  function MyApp({ Component, pageProps }) {
 
-function MyApp({ Component, pageProps }) {
+    useEffect(() => {
+      TagManager.initialize({ gtmId: 'GTM-T282LWR' });
+    }, []);
+    return (
+      <>
+        <Script
+          id="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
 
-  useEffect(() => {
-    TagManager.initialize({ gtmId: 'GTM-T282LWR' });
-  }, []);
-  return (
-    <>
-      <Script
-        id="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
-
-      <Script id="lazyOnload">
-        {`
+        <Script id="lazyOnload">
+          {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -28,10 +27,10 @@ function MyApp({ Component, pageProps }) {
         page_path: window.location.pathname,
       });
           `}
-      </Script>
-      <Component {...pageProps} />
-    </>
-  )
-}
+        </Script>
+        <Component {...pageProps} />
+      </>
+    )
+  }
 
 export default MyApp
