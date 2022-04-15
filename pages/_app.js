@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Script
         async
-        src={`https://www.googletagmanager.com/gtag/js?id=G-N0R7RS7CQ4`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-KSDN96B72N`}
       />
 
       <Script id="my-script"
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-N0R7RS7CQ4', {
+            gtag('config', 'G-KSDN96B72N', {
               page_path: window.location.pathname,
             });
           `,
