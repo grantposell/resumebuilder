@@ -12,7 +12,7 @@ export default function Booking() {
         <meta property="og:title" content="Raven Resumes -
          Services and Booking Times"></meta>
         <meta property="og:url" content="https://www.ravenresumes.com/booking"></meta>
-        <meta property="og:image" content="https://raven-resumes.s3.amazonaws.com/calendly.png"></meta>
+        <meta property="og:image" content="https://raven-resumes.s3.amazonaws.com/calendly.avif"></meta>
         <meta name="description" content="Book a time with one of our consultants for resume editing, career coaching, and tailored jobs to your specification."></meta>
         <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"></meta>
         <meta property="og:description" content="Book a time with one of our consultants for resume editing, career coaching, and tailored jobs to your specification."></meta>

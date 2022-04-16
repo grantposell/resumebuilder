@@ -12,7 +12,7 @@ import Image from 'next/image'
 //       height="300px"
 //     />
 const backgroundImage =
-  'https://raven-resumes.s3.amazonaws.com/resume.jpeg';
+  'https://raven-resumes.s3.amazonaws.com/resume.avif';
 
 export default function ProductHero() {
   return (

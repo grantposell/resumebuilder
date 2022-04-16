@@ -56,47 +56,47 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 
 const images = [
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/architecture.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/architecture.avif',
     title: 'Architecture & Construction',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/manufacturing.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/manufacturing.avif',
     title: 'Manufacturing',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/science.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/science.avif',
     title: 'Science',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/engineering.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/engineering.avif',
     title: 'Engineering',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/technology.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/technology.avif',
     title: 'Technology',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/mathematics.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/mathematics.avif',
     title: 'Mathematics',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/transportation.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/transportation.avif',
     title: 'Transportation',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/logistics.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/logistics.avif',
     title: 'Distribution & Logistics',
     width: '33.33%',
   },
   {
-    url: 'https://raven-resumes.s3.amazonaws.com/more.jpeg',
+    url: 'https://raven-resumes.s3.amazonaws.com/more.avif',
     title: 'More',
     width: '33.33%',
   },
