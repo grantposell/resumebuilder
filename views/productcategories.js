@@ -112,6 +112,7 @@ export default function ProductCategories() {
         {images.map((image) => (
           <ImageIconButton
             key={image.title}
+            loading="lazy"
             style={{
               width: image.width,
             }}
