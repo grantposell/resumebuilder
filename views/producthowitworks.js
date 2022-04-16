@@ -65,6 +65,7 @@ function ProductHowItWorks() {
                   component="img"
                   src="https://raven-resumes.s3.amazonaws.com/services.png"
                   alt="suitcase"
+                  loading="lazy"
                   sx={image}
                 />
                 <h5 variant="h5" align="left">
@@ -79,6 +80,7 @@ function ProductHowItWorks() {
                   component="img"
                   src="https://raven-resumes.s3.amazonaws.com/employee.png"
                   alt="graph"
+                  loading="lazy"
                   sx={image}
                 />
                 <h5 variant="h5" align="left">
@@ -92,6 +94,7 @@ function ProductHowItWorks() {
                 <Box
                   component="img"
                   src="https://raven-resumes.s3.amazonaws.com/meeting.png"
+                  loading="lazy"
                   alt="clock"
                   sx={image}
                 />
