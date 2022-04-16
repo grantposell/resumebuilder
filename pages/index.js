@@ -23,11 +23,11 @@ export default function Home() {
         <meta charset="UTF-8"></meta>
         <meta property="og:url" content="https://www.ravenresumes.com/"></meta>
         <meta property="og:image" content="https://raven-resumes.s3.amazonaws.com/resume.avif"></meta>
-        <meta name="description" content="We provide a holistic approach to getting a new job. Our services consist of resume editing, career coaching, and tailored jobs to your specification."></meta>
+        <meta name="description" content="We provide a holistic approach to getting a new job. Our services consist of resume editing, career coaching, and tailored job lists."></meta>
         <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"></meta>
         
         <meta property="og:site_name" content="Raven Resumes"></meta>
-        <meta property="og:description" content="We provide a holistic approach to getting a new job. Our services consist of resume editing, career coaching, and tailored jobs to your specification."></meta>
+        <meta property="og:description" content="We provide a holistic approach to getting a new job. Our services consist of resume editing, career coaching, and tailored job lists."></meta>
         
         <meta property="fb:app_id" content="403653587865581" />
         {/* <meta name="twitter:site" content="@ravenresumes"></meta> */}
