@@ -9,6 +9,9 @@ import Pricing from '../views/pricing';
 // import ProductCTA from '../views/productcta';
 // import Pixel from '../components/Pixel'
 
+export const config = {
+  unstable_runtimeJS : false
+}
 
 export default function Home() {
 
