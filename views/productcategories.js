@@ -106,7 +106,7 @@ export default function ProductCategories() {
   return (
     <Container component="section" sx={{ mt: 8, mb: 4 }}>
       <h2 variant="h4" marked="center" align="center" component="h2">
-        Resume services for all industries!
+      Our services include resume editing, career mapping, interview principles, and application techniques!
       </h2>
       <Box sx={{ mt: 8, display: 'flex', flexWrap: 'wrap' }}>
         {images.map((image) => (

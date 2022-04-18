@@ -20,7 +20,7 @@ export default function Navbar2() {
                     <Button color="inherit" component="a"
                         href="/about">About</Button>
                     <Button color="inherit" component="a"
-                        href="/booking">Book Now</Button>
+                        href="/booking">Book</Button>
                     <Button color="inherit" component="a"
                         href="/contact">Contact</Button>
                 </Toolbar>
