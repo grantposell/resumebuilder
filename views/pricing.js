@@ -49,11 +49,11 @@ export default function Pricing() {
                                         height="140"
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div" color="white">
+                                    <CardContent style={{color: 'white'}}>
+                                        <Typography gutterBottom variant="h5" component="div" >
                                             Free Consultation - $0
                                         </Typography>
-                                        <Typography variant="body2" color="white">
+                                        <Typography variant="body2" >
                                             <ul>
                                                 <li>Discuss structure of the service</li>
                                                 <li>Free 30 minute - 1v1 Advising session</li>
@@ -77,11 +77,11 @@ export default function Pricing() {
                                         height="140"
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div" color="white">
+                                    <CardContent style={{color: 'white'}}>
+                                        <Typography gutterBottom variant="h5" component="div" >
                                             Tier 1 - $50
                                         </Typography>
-                                        <Typography variant="body2" color="white">
+                                        <Typography variant="body2">
                                             <ul>
                                                 <li>30 minute - 1v1 Advising & Resume Editing session</li>
                                                 <li>3 Resume Alterations</li>
@@ -107,11 +107,11 @@ export default function Pricing() {
                                         height="140"
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div" color="white">
+                                    <CardContent style={{color: 'white'}}>
+                                        <Typography gutterBottom variant="h5" component="div">
                                             Tier 2 - $75
                                         </Typography>
-                                        <Typography variant="body2" color="white">
+                                        <Typography variant="body2" >
                                             <ul>
                                                 <li>1 hour - 1v1 Advising & Resume Editing session</li>
                                                 <li>4 Resume Alterations</li>
@@ -138,11 +138,11 @@ export default function Pricing() {
                                         height="140"
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div" color="white">
+                                    <CardContent style={{color: 'white'}}>
+                                        <Typography gutterBottom variant="h5" component="div" >
                                             Tier 3 - $100
                                         </Typography>
-                                        <Typography variant="body2" color="white">
+                                        <Typography variant="body2" >
                                             <ul>
                                                 <li>1 hour - 1v1 Advising & Resume Editing session</li>
                                                 <li>3 Days Job Sourcing - Recommended Jobs List</li>
