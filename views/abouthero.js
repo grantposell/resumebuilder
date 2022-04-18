@@ -2,7 +2,7 @@ export default function Abouthero() {
     return (
         <div style={{ margin: '100px' }}>
             <h2 variant="h4" marked="center" align="left" component="h2">
-                About Us
+                About
             </h2>
             <p style={{ textAlign: 'justify' }}>
                 Finding a job is challenging and changing career paths is even more difficult.
