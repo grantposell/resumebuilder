@@ -22,7 +22,7 @@ export default function Pricing() {
     return (
         <Box
             component="section"
-            sx={{ display: 'flex', bgcolor: 'rgb(242,242,247)', overflow: 'hidden', color: 'white' }}
+            sx={{ display: 'flex', bgcolor: 'rgb(242,242,247)', overflow: 'hidden', }}
         >
             <Container
                 sx={{
