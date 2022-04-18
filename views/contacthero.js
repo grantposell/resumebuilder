@@ -1,6 +1,6 @@
 export default function Contacthero() {
     return (
-        <div style={{padding: '8rem', backgroundColor: 'rgb(242,242,247)'}}>
+        <div style={{padding: '3rem', backgroundColor: 'rgb(242,242,247)'}}>
             <h2 variant="h4" marked="center" align="left" component="h2">
                 Contact Us 
             </h2>
