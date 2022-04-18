@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 import Navbar2 from '../components/Navbar2'
 import Contacthero from '../views/contacthero'
 

@@ -6,7 +6,7 @@ import ProductHero from '../views/producthero';
 import ProductCategories from '../views/productcategories';
 import ProductHowItWorks from '../views/producthowitworks';
 import Pricing from '../views/pricing';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 // import ProductCTA from '../views/productcta';
 // import Pixel from '../components/Pixel'
 
