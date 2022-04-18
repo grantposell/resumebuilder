@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 export default function Booking() {
 
   return (
-    <div style={{backgroundColor: "#A2AAAD", height:'100vh'}}>
+    <div style={{backgroundColor: "rgb(242,242,247)", height:'100vh'}}>
       <Head>
         <title>Raven Resumes - Services and Booking Times</title>
         <script src="//code.tidio.co/q0ldmoeyadk3faqrqpoxei0orwdhk4n9.js" async></script>
