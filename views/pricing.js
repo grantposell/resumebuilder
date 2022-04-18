@@ -22,7 +22,7 @@ export default function Pricing() {
     return (
         <Box
             component="section"
-            sx={{ display: 'flex', bgcolor: '#A2AAAD', overflow: 'hidden', color: 'white' }}
+            sx={{ display: 'flex', bgcolor: 'rgb(242,242,247)', overflow: 'hidden', color: 'white' }}
         >
             <Container
                 sx={{
@@ -34,7 +34,7 @@ export default function Pricing() {
                     alignItems: 'center',
                 }}
             >
-                <h2 id='#pricing' variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
+                <h2 id='#pricing' variant="h4" marked="center" component="h2" style={{color: 'black'}}sx={{ mb: 14, }}>
                     Pricing
                 </h2>
                 <br />
