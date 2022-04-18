@@ -17,15 +17,12 @@ export default function Navbar2() {
                             Raven Resumes
                         </Link>
                     </Typography>
-                    <Link href="/about">
-                        <Button color="inherit">About</Button>
-                    </Link>
-                    <Link href="/booking">
-                        <Button color="inherit">Book Now</Button>
-                    </Link>
-                    <Link href="/contact">
-                        <Button color="inherit">Contact</Button>
-                    </Link>
+                    <Button color="inherit" component="a"
+                        href="/about">About</Button>
+                    <Button color="inherit" component="a"
+                        href="/booking">Book Now</Button>
+                    <Button color="inherit" component="a"
+                        href="/contact">Contact</Button>
                 </Toolbar>
             </AppBar>
         </Box>
