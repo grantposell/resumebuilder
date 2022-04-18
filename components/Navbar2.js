@@ -23,8 +23,14 @@ export default function Navbar2() {
                     {/* <Link href="/pricing">
                         <Button color="inherit">Pricing</Button>
                     </Link> */}
+                    <Link href="/about">
+                        <Button color="inherit">About</Button>
+                    </Link>
                     <Link href="/booking">
                         <Button color="inherit">Book Now</Button>
+                    </Link>
+                    <Link href="/contact">
+                        <Button color="inherit">Contact</Button>
                     </Link>
                 </Toolbar>
             </AppBar>

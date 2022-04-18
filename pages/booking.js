@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar2 from '../components/Navbar2'
 import { InlineWidget } from "react-calendly";
+import Footer from '../components/footer';
 
 export default function Booking() {
 
@@ -20,6 +21,7 @@ export default function Booking() {
       </Head>
       <Navbar2 />
       <InlineWidget url="https://calendly.com/grantposell"/>
+      <Footer/>
       </div>
   )
 }
