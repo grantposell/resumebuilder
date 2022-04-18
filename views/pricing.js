@@ -40,7 +40,7 @@ export default function Pricing() {
                 <br />
                 <div>
                     <Grid container spacing={15}>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={3}>
                             <Box sx={item}>
                                 <Card sx={{ minWidth: 300 }}>
                                     {/* <CardMedia
@@ -68,7 +68,7 @@ export default function Pricing() {
                                 </Card>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={3}>
                             <Box sx={item}>
                                 <Card sx={{ minWidth: 300 }}>
                                     {/* <CardMedia
@@ -79,7 +79,7 @@ export default function Pricing() {
                                     /> */}
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            Starter - $50
+                                            Tier 1 - $50
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             <ul>
@@ -98,7 +98,7 @@ export default function Pricing() {
                                 </Card>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={3}>
                             <Box sx={item}>
                                 <Card sx={{ minWidth: 300 }}>
                                     {/* <CardMedia
@@ -109,7 +109,38 @@ export default function Pricing() {
                                     /> */}
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            Professional - $100
+                                            Tier 2 - $75
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                            <ul>
+                                                <li>1 hour - 1v1 Advising & Resume Editing session</li>
+                                                <li>4 Resume Alterations</li>
+                                                <li>Career Path Recommendations based on Client preference</li>
+                                                <li>Emailed Interview Questions tailored for applicant's interviews (Notify us of interview)</li>
+                                                <li>Perfect for any professional.</li>
+                                                <li>Completion: 4 days max</li>
+                                            </ul>
+                                        </Typography>
+                                    </CardContent>
+                                    {/* <CardActions>
+                                        <Button size="small">Share</Button>
+                                        <Button size="small">Learn More</Button>
+                                    </CardActions> */}
+                                </Card>
+                            </Box>
+                        </Grid>
+                        <Grid item xs={12} md={3}>
+                            <Box sx={item}>
+                                <Card sx={{ minWidth: 300 }}>
+                                    {/* <CardMedia
+                                        component="img"
+                                        alt="green iguana"
+                                        height="140"
+                                        image="/static/images/cards/contemplative-reptile.jpg"
+                                    /> */}
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                            Tier 3 - $100
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             <ul>
@@ -117,6 +148,8 @@ export default function Pricing() {
                                                 <li>3 Days Job Sourcing - Recommended Jobs List</li>
                                                 <li>5 Resume Alterations</li>
                                                 <li>Career Path Recommendations based on Client preference</li>
+                                                <li>Follow up 1 hr. session for Interview Preparation (Notify us of interview)</li>
+                                                <li>Review Interview Questions and Answers</li>
                                                 <li>Perfect for Experienced Professionals.</li>
                                                 <li>Completion: 3 days max</li>
                                             </ul>
