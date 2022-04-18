@@ -63,7 +63,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>1.</Box>
                 <Box
                   component="img"
-                  src="https://raven-resumes.s3.amazonaws.com/services.avif"
+                  src="https://raven-resumes.s3.amazonaws.com/services.png"
                   alt="suitcase"
                   loading="lazy"
                   sx={image}
@@ -78,7 +78,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>2.</Box>
                 <Box
                   component="img"
-                  src="https://raven-resumes.s3.amazonaws.com/employee.avif"
+                  src="https://raven-resumes.s3.amazonaws.com/employee.png"
                   alt="graph"
                   loading="lazy"
                   sx={image}
@@ -93,7 +93,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>3.</Box>
                 <Box
                   component="img"
-                  src="https://raven-resumes.s3.amazonaws.com/meeting.avif"
+                  src="https://raven-resumes.s3.amazonaws.com/meeting.png"
                   loading="lazy"
                   alt="clock"
                   sx={image}
