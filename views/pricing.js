@@ -42,7 +42,7 @@ export default function Pricing() {
                     <Grid container spacing={15}>
                         <Grid item xs={12} md={3}>
                             <Box sx={item}>
-                                <Card sx={{ minWidth: 300 }}>
+                                <Card sx={{ minWidth: 300, bgcolor: '#1876d0'}}>
                                     {/* <CardMedia
                                         component="img"
                                         alt="green iguana"
@@ -50,10 +50,10 @@ export default function Pricing() {
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
                                     <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
+                                        <Typography gutterBottom variant="h5" component="div" color="white">
                                             Free Consultation - $0
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography variant="body2" color="white">
                                             <ul>
                                                 <li>Discuss structure of the service</li>
                                                 <li>Free 30 minute - 1v1 Advising session</li>
@@ -70,7 +70,7 @@ export default function Pricing() {
                         </Grid>
                         <Grid item xs={12} md={3}>
                             <Box sx={item}>
-                                <Card sx={{ minWidth: 300 }}>
+                                <Card sx={{ minWidth: 300, bgcolor: '#1876d0' }}>
                                     {/* <CardMedia
                                         component="img"
                                         alt="green iguana"
@@ -78,10 +78,10 @@ export default function Pricing() {
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
                                     <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
+                                        <Typography gutterBottom variant="h5" component="div" color="white">
                                             Tier 1 - $50
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography variant="body2" color="white">
                                             <ul>
                                                 <li>30 minute - 1v1 Advising & Resume Editing session</li>
                                                 <li>3 Resume Alterations</li>
@@ -100,7 +100,7 @@ export default function Pricing() {
                         </Grid>
                         <Grid item xs={12} md={3}>
                             <Box sx={item}>
-                                <Card sx={{ minWidth: 300 }}>
+                                <Card sx={{ minWidth: 300, bgcolor: '#1876d0' }}>
                                     {/* <CardMedia
                                         component="img"
                                         alt="green iguana"
@@ -108,10 +108,10 @@ export default function Pricing() {
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
                                     <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
+                                        <Typography gutterBottom variant="h5" component="div" color="white">
                                             Tier 2 - $75
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography variant="body2" color="white">
                                             <ul>
                                                 <li>1 hour - 1v1 Advising & Resume Editing session</li>
                                                 <li>4 Resume Alterations</li>
@@ -131,7 +131,7 @@ export default function Pricing() {
                         </Grid>
                         <Grid item xs={12} md={3}>
                             <Box sx={item}>
-                                <Card sx={{ minWidth: 300 }}>
+                                <Card sx={{ minWidth: 300, bgcolor: '#1876d0' }}>
                                     {/* <CardMedia
                                         component="img"
                                         alt="green iguana"
@@ -139,10 +139,10 @@ export default function Pricing() {
                                         image="/static/images/cards/contemplative-reptile.jpg"
                                     /> */}
                                     <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
+                                        <Typography gutterBottom variant="h5" component="div" color="white">
                                             Tier 3 - $100
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography variant="body2" color="white">
                                             <ul>
                                                 <li>1 hour - 1v1 Advising & Resume Editing session</li>
                                                 <li>3 Days Job Sourcing - Recommended Jobs List</li>
@@ -169,7 +169,7 @@ export default function Pricing() {
                     variant="contained"
                     component="a"
                     href="/booking"
-                    sx={{ mt: 8, backgroundColor: 'white', color: 'black' }}
+                    sx={{ mt: 8, backgroundColor: '#1876d0', color: 'white' }}
                 >
                     Book Now
                 </Button>

@@ -1,6 +1,6 @@
 export default function Abouthero() {
     return (
-        <div style={{ margin: '100px' }}>
+        <div style={{ padding: '8rem', backgroundColor: "rgb(242,242,247)" }}>
             <h2 variant="h4" marked="center" align="left" component="h2">
                 About
             </h2>

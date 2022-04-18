@@ -10,12 +10,10 @@ import Link from 'next/link';
 export default function Navbar2() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="sticky">
+            <AppBar position="sticky" style={{backgroundColor: '#152fa3'}}>
                 <Toolbar>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        <Link href="/">
-                            Raven Resumes
-                        </Link>
+                            Raven Resumes<img src="https://raven-resumes.s3.amazonaws.com/Logo.png" alt="Girl in a jacket" width="50px" style={{verticalAlign: 'middle'}}></img>
                     </Typography>
                     <Button color="inherit" component="a"
                         href="/about">About</Button>
