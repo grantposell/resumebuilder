@@ -13,7 +13,7 @@ export default function Navbar2() {
             <AppBar position="sticky" style={{backgroundColor: '#152fa3'}}>
                 <Toolbar>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                            Raven Resumes<img src="https://raven-resumes.s3.amazonaws.com/Logo.png" alt="Girl in a jacket" width="50px" style={{verticalAlign: 'middle'}}></img>
+                    <a href="https://www.ravenresumes.com/">Raven Resumes<img src="https://raven-resumes.s3.amazonaws.com/Logo.png" alt="Girl in a jacket" width="50px" style={{verticalAlign: 'middle'}}></img></a>
                     </Typography>
                     <Button color="inherit" component="a"
                         href="/about">About</Button>
