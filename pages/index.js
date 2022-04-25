@@ -33,6 +33,7 @@ export default function Home() {
         <meta property="fb:app_id" content="403653587865581" />
         {/* <meta name="twitter:site" content="@ravenresumes"></meta> */}
         <meta property="og:locale" content="en_US"></meta>
+        <meta name="facebook-domain-verification" content="o1nwuephy5a93ipxyb8xci70z2uocn" />
         
 
       </Head>
