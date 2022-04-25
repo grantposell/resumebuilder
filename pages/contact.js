@@ -17,6 +17,7 @@ export default function Contact() {
                 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"></meta>
                 <meta property="og:description" content="Raven Resumes can be contacted many ways."></meta>
                 <meta property="og:locale" content="en_US"></meta>
+                <meta property="fb:app_id" content="403653587865581" />
             </Head>
             <Navbar2 />
             <Contacthero />
