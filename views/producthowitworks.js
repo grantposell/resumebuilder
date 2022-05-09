@@ -53,7 +53,7 @@ function ProductHowItWorks() {
             opacity: 0.7,
           }}
         />
-        <h2 variant="h4" marked="center" component="h2" sx={{ mb: 14}}>
+        <h2 variant="h4" marked="center" component="h2" style={{textDecoration: 'underline'}} sx={{ mb: 14, }}>
           How it works
         </h2>
         <div>

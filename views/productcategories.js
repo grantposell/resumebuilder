@@ -105,9 +105,12 @@ const images = [
 export default function ProductCategories() {
   return (
     <Container component="section" sx={{ mt: 8, mb: 4 }}>
-      <h2 variant="h4" marked="center" align="center" component="h2">
+      <h2 id='#industries' variant="h4" marked="center" component="h2" align="center" style={{ color: 'black', textDecoration: 'underline'}} sx={{ mb: 14, }}>
+                    Career Industries
+                </h2>
+      <h4 variant="h4" marked="center" align="center" component="h2">
       Our services include resume editing, career mapping, interview principles, and application techniques!
-      </h2>
+      </h4>
       <Box sx={{ mt: 8, display: 'flex', flexWrap: 'wrap' }}>
         {images.map((image) => (
           <ImageIconButton

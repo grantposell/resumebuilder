@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar2 from '../components/Navbar2'
-import { InlineWidget } from "react-calendly";
 import Footer from '../components/Footer';
+import Script from "next/script";
 
 export default function Booking() {
 
@@ -19,10 +19,15 @@ export default function Booking() {
         <meta property="og:description" content="Book a time with one of our consultants for resume editing, career coaching, and tailored jobs to your specification."></meta>
         <meta property="og:locale" content="en_US"></meta>
         <meta property="fb:app_id" content="403653587865581" />
+
       </Head>
       <Navbar2 />
-      <InlineWidget url="https://calendly.com/grantposell"/>
+      <iframe src="https://app.squarespacescheduling.com/schedule.php?owner=26160574" title="Schedule Appointment" width="100%" height="800" frameBorder="0"></iframe>
       <Footer/>
+      <Script
+        async
+        src={`https://embed.acuityscheduling.com/js/embed.js`}
+      />
       </div>
   )
 }

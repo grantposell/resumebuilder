@@ -7,6 +7,8 @@ import ProductCategories from '../views/productcategories';
 import ProductHowItWorks from '../views/producthowitworks';
 import Pricing from '../views/pricing';
 import Footer from '../components/Footer';
+import Testimonials from '../views/testimonials';
+// import Subscribe from '../views/subscribe';
 // import ProductCTA from '../views/productcta';
 // import Pixel from '../components/Pixel'
 
@@ -34,16 +36,18 @@ export default function Home() {
         {/* <meta name="twitter:site" content="@ravenresumes"></meta> */}
         <meta property="og:locale" content="en_US"></meta>
         <meta name="facebook-domain-verification" content="o1nwuephy5a93ipxyb8xci70z2uocn" />
-        
+
 
       </Head>
       {/* <Pixel name='FACEBOOK_PIXEL_1' /> */}
       <Navbar2 />
       <ProductHero />
       {/* <ProductValues /> */}
-      <ProductCategories />
       <ProductHowItWorks />
+      <ProductCategories />
       <Pricing />
+      <Testimonials/>
+      {/* <Subscribe/> */}
       <Footer/>
     </div>
 

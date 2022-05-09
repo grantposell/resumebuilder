@@ -24,20 +24,20 @@ export default function ProductHero() {
       }}
     >
       <h2 color="inherit" align="center" marked="center">
-        Looking for Internships or your first job?
+        Need a new job and not sure where to start?
       </h2>
       <h5
         color="inherit"
         align="center"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Enjoy a free consultation and choose one of our packages to jump start your job search!
+        Sign up for a free consultation and jump start your job search!
       </h5>
       <Button
         variant="contained"
         size="large"
         component="a"
-        href="/booking"
+        href="https://app.squarespacescheduling.com/schedule.php?owner=26160574&appointmentType=33200216"
         sx={{ minWidth: 200, backgroundColor: '#1876d1',}}
       >
         Book Now
